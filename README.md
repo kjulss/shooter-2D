@@ -1,56 +1,51 @@
-# 🚀 Shooter 2D 🎮
+🚀 Shooter 2D Game 🎮
+¡Bienvenido al juego Shooter 2D! Es un juego clásico de disparos en 2D donde controlas una nave espacial y debes disparar a los enemigos que caen del cielo. Cuanto más tiempo sobrevivas y más enemigos elimines, más puntos conseguirás. ¡Ponte a prueba y compite por la mejor puntuación!
 
-¡Bienvenido a mi juego de disparos en 2D! Este es un juego sencillo desarrollado en Python utilizando la librería **Pygame**. En el juego, controlas una nave espacial que debe disparar a los enemigos mientras evitas ser golpeado. ¿Cuántos puntos puedes conseguir? ¡Juega y descubre!
+🌟 Características
+✨ Juego en 2D con gráficos simples pero divertidos.
+🚀 Controla tu nave espacial y esquiva los enemigos.
+💥 Dispara balas a los enemigos que caen del cielo.
+🎯 Puntuación que aumenta con cada enemigo eliminado.
+🔄 Generación aleatoria de enemigos para un desafío constante.
+🛠️ Requisitos
+Asegúrate de tener instaladas las siguientes dependencias:
 
-## 🖥️ Requisitos
-
-Para ejecutar este juego, necesitas tener instalado lo siguiente:
-
-- Python 3.x
-- Pygame (puedes instalarlo con `pip install pygame`)
-
-## 📂 Instalación
-
-1. Clona este repositorio:
-
-   ```bash
-   git clone https://github.com/TuUsuario/shooter-2d.git
-Navega al directorio del proyecto:
-
+Python 3.x
+Pygame
+📥 Instalación
+Clona este repositorio en tu máquina local:
 bash
 Copiar
 Editar
-cd shooter-2d
+git clone https://github.com/tu_usuario/shooter-2d-game.git
+Navega al directorio del proyecto:
+bash
+Copiar
+Editar
+cd shooter-2d-game
 Instala las dependencias necesarias:
-
 bash
 Copiar
 Editar
 pip install pygame
-🎮 Cómo jugar
-Ejecuta el script principal:
+Asegúrate de tener las imágenes necesarias en la carpeta del proyecto:
+player_ship.png: Imagen de la nave del jugador.
+laser.png: Imagen del disparo de la nave.
+enemy_ship.png: Imagen de la nave enemiga.
+🕹️ Cómo jugar
+Mueve tu nave con las teclas de flecha izquierda y derecha.
+Presiona la tecla Espacio para disparar.
+Destruye los enemigos para obtener puntos.
+Evita que los enemigos lleguen a la parte inferior de la pantalla.
+📈 Puntajes
+Cada enemigo destruido te da 1 punto.
+¡Intenta obtener la mejor puntuación posible!
+📸 Capturas de pantalla
 
-bash
-Copiar
-Editar
-python main.py
-Controles:
+![image](https://github.com/user-attachments/assets/062f6c60-aa57-4c4f-819c-1a2369d96033)
 
-← y →: Mover la nave.
-Espacio: Disparar.
-¡Evita que los enemigos lleguen al fondo y destrúyelos con tus disparos! 🛸💥
+🔧 Contribuciones
+Si quieres mejorar el juego o agregar nuevas características, ¡haz un fork del repositorio y abre un pull request!
 
-📸 Captura de pantalla
-![image](https://github.com/user-attachments/assets/109f9fa7-bd5f-4180-a298-0caa3f968114)
-
-📝 Notas
-El juego incluye naves enemigas, balas y puntuación.
-Puedes modificar los valores del juego (como la velocidad de la nave y los enemigos) editando el código.
-¡Sigue jugando y mejorando tu puntuación! 🏆
-
-🚧 En desarrollo
-Agregar más enemigos con diferentes patrones de movimiento.
-Mejorar los efectos visuales y sonidos. 🔊
-
-🤝 Contribuciones
-Si tienes sugerencias o mejoras para el juego, ¡no dudes en crear un pull request! 👩‍💻👨‍💻
+📝 Licencia
+Este proyecto está bajo la Licencia MIT - consulta el archivo LICENSE para más detalles.
